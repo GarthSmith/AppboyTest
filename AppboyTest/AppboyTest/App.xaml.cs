@@ -14,6 +14,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using AppboyPlatform.PCL.Managers;
+using AppboyPlatform.Universal;
+using AppboyPlatform.Universal.Managers.PushArgs;
 
 namespace AppboyTest
 {
@@ -80,6 +83,8 @@ namespace AppboyTest
                 // Ensure the current window is active
                 Window.Current.Activate();
             }
+
+            Appboy.SharedInstance.OpenSession();
         }
 
         /// <summary>
@@ -103,6 +108,7 @@ namespace AppboyTest
         {
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
+            Appboy.SharedInstance.CloseSession();
             deferral.Complete();
         }
     }

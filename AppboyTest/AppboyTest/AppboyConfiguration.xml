@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AppboyConfig>
+    <ApiKey>e6675ad0-552f-401e-98c1-9284cd5e55b2</ApiKey>
+	<DisableLocationCollection>true</DisableLocationCollection>
+</AppboyConfig>
