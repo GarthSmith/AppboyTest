@@ -113,6 +113,11 @@
     <None Include="AppboyTest_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\24.scale-100.png" />
+    <Content Include="Assets\24.scale-125.png" />
+    <Content Include="Assets\24.scale-150.png" />
+    <Content Include="Assets\24.scale-200.png" />
+    <Content Include="Assets\24.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -131,6 +136,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Externals\AppboyUI.Universal\AppboyUI.Universal.csproj">
+      <Project>{aff6cb75-d9a3-4aa6-8bcf-3dc78b1b1878}</Project>
+      <Name>AppboyUI.Universal</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

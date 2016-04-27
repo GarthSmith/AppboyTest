@@ -17,6 +17,9 @@ using Windows.UI.Xaml.Navigation;
 using AppboyPlatform.PCL.Managers;
 using AppboyPlatform.Universal;
 using AppboyPlatform.Universal.Managers.PushArgs;
+using AppboyUI.Universal.Factories;
+using AppboyUI.Universal.Assets.Localization;
+using Windows.UI.Xaml.Resources;
 
 namespace AppboyTest
 {

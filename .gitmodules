@@ -1,0 +1,3 @@
+[submodule "AppboyTest/AppboyTest/Externals/AppboyUI.Universal"]
+	path = AppboyTest/AppboyTest/Externals/AppboyUI.Universal
+	url = git@github.com:Appboy/appboy-windows-universal-ui.git
